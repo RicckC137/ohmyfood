@@ -18,14 +18,19 @@
 
     <title>ohmyfood!</title>
 
-    <header>
-        <p class="header">
-            <img class="header__logo" src="./images/logo/ohmyfood.png" alt="logo">
+    <header class="header header--logo">
+        <p>
+            <img class="header__logo-img" src="./images/logo/ohmyfood.png" alt="logo">
         </p>
     </header>
     <main>
         <div class="main__form">
-            <label for="recherche">Paris, Belleville</label>
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+            <form method="post" action="traitement.php">
+                <p>
+                    <input type="text" placeholder=" Paris, Belleville" />
+                </p>
+            </form>
         </div>
         <div class="main__description">
             <p class="main__description-p1">Réservez le menu qui vous convient</p1>
