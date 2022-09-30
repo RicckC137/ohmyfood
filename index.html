@@ -19,36 +19,41 @@
     <title>ohmyfood!</title>
 
     <header>
-        <img src="./images/logo/ohmyfood.png" alt="logo">
-        <div>
-            <label for="recherche">Paris, Belleville</label>
-        </div>
-        <div>
-            <p>Réservez le menu qui vous convient</p>
-            <p>Découvrez des restaurants d'exception, sélectionnés pas nos soins.</p>
-        </div>
-        <div class="button">
-            <button type="submit">Explorer nos restaurants</button>
-        </div>
+        <p class="header">
+            <img class="header__logo" src="./images/logo/ohmyfood.png" alt="logo">
+        </p>
     </header>
     <main>
-        <h1>Fonctionnement</h1>
-        <button>
-            <p>Choisissez un restaurant</p>
+        <div class="main__form">
+            <label for="recherche">Paris, Belleville</label>
+        </div>
+        <div class="main__description">
+            <p class="main__description-p1">Réservez le menu qui vous convient</p1>
+            <p class="main__description-p2">Découvrez des restaurants d'exception, sélectionnés pas nos soins.</p2>
+        </div>
+        <div class="main__validation-explore">
+            <button type="submit">Explorer nos restaurants</button>
+        </div>
+    </main>
+
+    <section class="fonctionnement">
+        <h1 class="fonctionnement__title">Fonctionnement</h1>
+        <button class="fonctionnement__button-choose">
+            <p class="fonctionnement__buttonchoose-description">Choisissez un restaurant</p>
         </button>
-        <button>
+        <button class="fonctionnement__button-compose">
             <p>Composez votre menu</p>
         </button>
-        <button>
+        <button class="fonctionnement__button-eat">
             <p>Dégustez au restaurant</p>
         </button>
-    </main>
-    <aside>
-        <h2>Restaurants</h2>
-        <article>
+    </section>
+    <aside class="restorants">
+        <h2 class="restorants__title">Restaurants</h2>
+        <article class="retorants__description">
             <img src="./images/restaurants/palette.jpg" alt="La palette du goût">
-            <p>La palette du goût</p>
-            <p>Ménilmontant</p>
+            <p class="retorants__description--name">La palette du goût</p>
+            <p class="retorants__description--location">Ménilmontant</p>
         </article>
         <article>
             <img src="./images/restaurants/note.jpg" alt="La note enchantée">
