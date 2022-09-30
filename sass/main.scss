@@ -1,8 +1,7 @@
 @import "./abstracts/variables";
-@import "./layout/header";
-@import "./base/font";
-@import "./layout/logo";
 @import "./utils/mixins.scss";
+@import "./base/font";
 @import "./base/width-logo";
-@import "./components/form";
+@import "./base/_form-emoticon.sass";
+@import "./layout/header";
 /*# sourceMappingURL=style.css.map */
