@@ -19,7 +19,7 @@
     <title>ohmyfood!</title>
 
     <header class="header header--logo">
-        <p>
+        <p class=" header-contenair">
             <img class="header__logo-img" src="./images/logo/ohmyfood.png" alt="logo">
         </p>
     </header>
@@ -37,21 +37,28 @@
             <p class="main__description-p2">Découvrez des restaurants d'exception, sélectionnés pas nos soins.</p2>
         </div>
         <div class="main__validation-explore">
-            <button type="submit">Explorer nos restaurants</button>
+            <button class="btn" type="submit">Explorer nos restaurants</button>
         </div>
     </main>
 
     <section class="fonctionnement">
         <h1 class="fonctionnement__title">Fonctionnement</h1>
-        <button class="fonctionnement__button-choose">
-            <p class="fonctionnement__buttonchoose-description">Choisissez un restaurant</p>
-        </button>
-        <button class="fonctionnement__button-compose">
-            <p>Composez votre menu</p>
-        </button>
-        <button class="fonctionnement__button-eat">
+        <article class="cards">
+            <div class="cards_number">1</div>
+            <span class="cards_logo"><i class="fa-solid fa-mobile-screen-button"></i></span>
+            <p>Choisissez un restaurant</p>
+        </article>
+        <article class="cards">
+            <div class="cards_number">2</div>
+            <span class="cards_logo"><i class="fa-solid fa-list"></i></span>
+            <p>Composez votre menu </p>
+        </article>
+        <article class="cards">
+            <div class="cards_number">3</div>
+            <span class="cards_logo"><i class="fa-solid fa-store"></i></span>
             <p>Dégustez au restaurant</p>
-        </button>
+        </article>
+
     </section>
     <aside class="restorants">
         <h2 class="restorants__title">Restaurants</h2>

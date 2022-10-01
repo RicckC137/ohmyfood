@@ -1,3 +1,17 @@
 body {
     font-family: "Roboto", cursive;
+    list-style: none;
+}
+
+.main__description-p1 {
+    width: 60%;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.main__description-p2 {
+    width: 80%;
+    font-size: medium;
+    color: black;
 }

@@ -1,0 +1,16 @@
+.main__form {
+    @include flex_justify;
+    background-color: $background-form;
+
+}
+
+input {
+    border-style: none;
+    background-color: $background-form;
+}
+
+::placeholder {
+    color: black;
+    font-weight: bold;
+
+}

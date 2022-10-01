@@ -1,0 +1,18 @@
+.main__validation-explore {
+    height: 100px;
+    @include flex_box;
+    @include padding_10px;
+    background-color: #eaeaeada;
+
+
+}
+
+.btn {
+
+    border-color: #ff79da;
+    color: white;
+    border-radius: 30px;
+    background-color: #ff79da;
+}
+
+.btn--explorer {}

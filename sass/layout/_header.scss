@@ -1,16 +1,18 @@
 .header {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    @include padding_10px;
+    @include flex_justify;
+
+
+    .header__logo-img {
+
+        width: 50%;
+        @include flex_justify;
+
+    }
 }
 
-.header__logo-img {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+.header-contenair {
+    @include flex_justify;
 
-}
-
-.main__form {
-    display: flex;
 }
