@@ -2,17 +2,19 @@
     height: 100px;
     @include flex_box;
     @include padding_10px;
-    background-color: #eaeaeada;
+    background-color: #f6f6f6;
 
 
 }
 
 .btn {
-
+    height: 50px;
+    width: 50%;
+    font-size: small;
+    border-style: none;
     border-color: #ff79da;
     color: white;
     border-radius: 30px;
     background-color: #ff79da;
+    background: linear-gradient(#f074da, #a36bd8);
 }
-
-.btn--explorer {}
