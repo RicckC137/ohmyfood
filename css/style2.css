@@ -22,43 +22,91 @@ a {
 
 .screen_restaurant {
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     margin: 0;
 }
 
 .restorant {
     background-color: #f6f6f6;
+    height: 1000px;
+
+
 
 }
+
 
 .restorant__name {
     background-color: #f6f6f6;
     left: 0px;
-    padding-top: 20px;
     color: black;
     border-radius: 40px;
     font-family: 'Shrikhand', cursive;
     display: flex;
-    justify-content: center;
-    font-size: xx-large;
+    justify-content: space-around;
+    font-size: x-large;
 
     border-radius: 40px 40px 0 0;
     position: absolute;
     width: 100%;
-    top: 235px;
+    top: 280px;
     margin-bottom: 0px;
     height: 60px;
 
+    margin-top: 80.56;
+    margin-top: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 30px;
+
+
+}
+
+.fa-regular.fa-heart {
+    padding-top: 5px;
 }
 
 .starter {
     top: 150px;
     left: 60px;
-    font-size: x-large;
+    font-size: medium;
     padding-left: 20px;
     margin-bottom: 0px;
     top: 197px;
+    margin-top: 30px;
+}
+
+.plat {
+    margin-bottom: 20px;
+}
+
+.plat_list {
+    padding: 15px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: small;
+}
+
+.plat_validation {
+    display: none;
+    background-color: white;
+    box-shadow: 2px 2px 10px lightgrey;
+    border-radius: 20px 20px;
+    height: fit-content;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: all 2000ms;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fa-solid.fa-heart:hover {
+    color: blueviolet;
 }
 
 .line {
@@ -77,12 +125,44 @@ a {
     /* JUSTIFY-CONTENT: space-evenly; */
     margin-top: -15px;
     bottom: 236px;
-
+    margin-bottom: 30px;
 
 }
 
 .plat {
     top: 150px;
     left: 60px;
-    order: ;
+    background-color: white;
+    display: flex;
+
+    border-radius: 10PX;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-width: 5px;
+    padding-bottom: 10px;
+    animation-name: unset;
+    animation-duration: 1000ms;
+    animation-fill-mode: backwards;
+
+}
+
+.img {
+    background-image: url("../images/restaurants/note.jpg");
+
+}
+
+
+
+.plat_description p {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: white;
+}
+
+.plat_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
