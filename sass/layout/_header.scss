@@ -7,8 +7,12 @@
 
     .header__logo-img {
 
+        padding-left: 80px;
+        padding-right: 100px;
         width: 50%;
         @include flex_justify;
+
+
 
     }
 }
@@ -17,6 +21,7 @@
 
 .header-contenair {
     @include flex_justify;
+    padding: 1px;
 
 }
 
@@ -27,6 +32,8 @@ a {
 
 .header__menu-return-arrow {
     font-size: x-large;
+    padding-left: 20px;
+
 }
 
 
