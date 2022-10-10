@@ -30,3 +30,9 @@
 @mixin padding_10px {
     padding: 10px;
 }
+
+@mixin text_align {
+    display: block;
+    text-align: center;
+
+}

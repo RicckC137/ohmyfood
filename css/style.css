@@ -3,6 +3,10 @@ body {
   list-style: none;
 }
 
+.main__description-validation {
+  text-align: center;
+}
+
 .main__description-p1 {
   font-size: larger;
   font-weight: bold;
@@ -73,38 +77,6 @@ input {
 ::placeholder {
   color: black;
   font-weight: bold;
-}
-
-.essai1 {
-  display: flex;
-  align-items: center;
-  background-color: #f6f6f6;
-}
-
-.main__description {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: #f6f6f6;
-  padding: 10px;
-}
-.main__description .main__description-validation {
-  padding: 20px;
-}
-.main__description .main__description-p1 {
-  display: flex;
-  height: 40px;
-  justify-content: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.main__description .main__description-p2 {
-  display: flex;
-  height: 40px;
-  width: 75%;
-  justify-content: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .fonctionnement {
@@ -258,6 +230,35 @@ footer .flex-center {
 }
 footer .height {
   height: 51px;
+}
+
+.main__description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  padding: 10px;
+}
+.main__description .main__description-validation {
+  padding: 20px;
+  text-align: center;
+}
+.main__description .main__description-p1 {
+  height: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.main__description .main__description-p2 {
+  height: 40px;
+  width: 75%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.essai1 {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
 }
 
 .main__validation-explore {
