@@ -101,15 +101,12 @@ a {
 
 
 
-.plat_description p {
+
+
+.essaie_2 {
     display: flex;
-    align-items: center;
-    margin: 5px;
-    background-color: white;
+    flex-direction: row;
+
 }
 
-.plat_description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
+/*ESSAI*/
