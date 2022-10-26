@@ -15,6 +15,12 @@
 
 }
 
+.restorants_presentation {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 20px;
+
+}
 
 
 .far.fa-heart.heart {
