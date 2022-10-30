@@ -1,0 +1,27 @@
+.fonctionnement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.fonctionnement__title {
+    padding-top: 25px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.cards {
+    margin: 20px;
+    margin-bottom: 0;
+
+}
+
+
+.restorants_presentation {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 20px;
+
+}

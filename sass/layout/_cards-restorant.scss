@@ -233,12 +233,11 @@
 .plat:hover {
     .plat_validation {
         visibility: visible;
-        padding: 0 10px;
+        padding: 0 20px;
         justify-content: center;
         font-size: x-large;
         transform: scaleX(1);
         transition-duration: 500ms;
-        width: 80px;
 
 
     }
@@ -248,8 +247,8 @@
     }
 
     .fa-solid.fa-circle-check {
-        transform: rotate(1turn);
-        transition: transform 1s ease-in-out;
+        transform: rotate(-360deg);
+        transition: transform 600ms ease-in-out;
     }
 }
 
@@ -352,7 +351,9 @@
 }
 
 
-
+.heart-size {
+    font-size: x-large;
+}
 
 .heart {
     position: relative;
@@ -392,7 +393,6 @@ a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: xx-large;
     color: black;
 }
 
@@ -424,6 +424,14 @@ a {
 
 }
 
+.restorant__heart_padding {
+    padding-right: 10px;
+}
+
+.restorant__menu {
+    padding: 10px;
+}
+
 
 .restorant__name {
     background-color: #f6f6f6;
@@ -432,11 +440,13 @@ a {
     border-radius: 40px;
     font-family: 'Shrikhand', cursive;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     font-size: x-large;
 
     border-radius: 40px 40px 0 0;
     position: absolute;
+
     width: 100%;
     top: 280px;
     margin-bottom: 0px;
@@ -451,6 +461,10 @@ a {
 
 }
 
+.restorant__name__padding {
+    padding-left: 10px;
+}
+
 .fa-regular.fa-heart {
     padding-top: 5px;
 }
@@ -460,6 +474,7 @@ a {
     left: 60px;
     font-size: medium;
     padding-left: 20px;
+    padding-top: 20px;
     margin-bottom: 0px;
     top: 197px;
     margin-top: 30px;
@@ -475,15 +490,14 @@ a {
     left: 60px;
     color: #99E2D0;
 
-    POSITION: STATIC;
-    ALIGN-ITEMS: revert;
+    position: static;
+    align-items: revert;
     margin-top: 0px;
     top: 0px;
     left: 2px;
     height: 2px;
     padding-left: 20px;
     padding-bottom: 0px;
-    /* JUSTIFY-CONTENT: space-evenly; */
     margin-top: -15px;
     bottom: 236px;
     margin-bottom: 30px;

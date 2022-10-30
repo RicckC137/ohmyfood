@@ -26,10 +26,40 @@ body {
   padding-left: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .body {
+    height: inherit;
+  }
+  .fonctionnement {
+    margin-bottom: 20px;
+  }
+  .fonctionnement__title {
+    padding-top: 40px;
+    padding-left: 10px;
+    margin-right: 10px;
+  }
+  .cards {
+    margin: 20px;
+    margin-bottom: 0;
+  }
+  .restorants_presentation {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 20px;
+  }
+  .far.fa-heart.heart {
+    margin-left: 70px;
+  }
+  .restorants_presentation {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 20px;
+  }
+}
 body {
   padding: 0px;
   margin: 0;
-  height: 2700px;
+  height: auto;
 }
 
 .fonctionnement__title {
@@ -305,19 +335,18 @@ input {
 
 .plat:hover .plat_validation {
   visibility: visible;
-  padding: 0 10px;
+  padding: 0 20px;
   justify-content: center;
   font-size: x-large;
   transform: scaleX(1);
   transition-duration: 500ms;
-  width: 80px;
 }
 .plat:hover .plat__prix {
   padding-left: 0;
 }
 .plat:hover .fa-solid.fa-circle-check {
-  transform: rotate(1turn);
-  transition: transform 1s ease-in-out;
+  transform: rotate(-360deg);
+  transition: transform 600ms ease-in-out;
 }
 
 .restorant {
@@ -400,6 +429,10 @@ input {
   cursor: pointer;
 }
 
+.heart-size {
+  font-size: x-large;
+}
+
 .heart {
   position: relative;
   z-index: 1;
@@ -435,7 +468,6 @@ a {
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: xx-large;
   color: black;
 }
 
@@ -463,6 +495,14 @@ a {
   height: 1000px;
 }
 
+.restorant__heart_padding {
+  padding-right: 10px;
+}
+
+.restorant__menu {
+  padding: 10px;
+}
+
 .restorant__name {
   background-color: #f6f6f6;
   left: 0px;
@@ -470,7 +510,8 @@ a {
   border-radius: 40px;
   font-family: "Shrikhand", cursive;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   font-size: x-large;
   border-radius: 40px 40px 0 0;
   position: absolute;
@@ -485,6 +526,10 @@ a {
   padding-top: 30px;
 }
 
+.restorant__name__padding {
+  padding-left: 10px;
+}
+
 .fa-regular.fa-heart {
   padding-top: 5px;
 }
@@ -494,6 +539,7 @@ a {
   left: 60px;
   font-size: medium;
   padding-left: 20px;
+  padding-top: 20px;
   margin-bottom: 0px;
   top: 197px;
   margin-top: 30px;
@@ -507,15 +553,14 @@ a {
   top: 115px;
   left: 60px;
   color: #99E2D0;
-  POSITION: STATIC;
-  ALIGN-ITEMS: revert;
+  position: static;
+  align-items: revert;
   margin-top: 0px;
   top: 0px;
   left: 2px;
   height: 2px;
   padding-left: 20px;
   padding-bottom: 0px;
-  /* JUSTIFY-CONTENT: space-evenly; */
   margin-top: -15px;
   bottom: 236px;
   margin-bottom: 30px;
