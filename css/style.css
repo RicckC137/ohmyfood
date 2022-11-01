@@ -85,11 +85,14 @@ body {
     padding: 0;
   }
   .plat {
-    min-width: 250px;
-    max-width: 250px;
+    min-width: 220px;
+    max-width: 230px;
   }
 }
 @media screen and (min-width: 992px) {
+  body {
+    height: 1400px;
+  }
   .fonctionnement {
     display: flex;
     flex-direction: row;
@@ -127,6 +130,7 @@ body {
 body {
   padding: 0px;
   margin: 0;
+  height: 2700px;
 }
 
 .fonctionnement__title {
@@ -610,7 +614,7 @@ a {
   padding-left: 20px;
   margin-bottom: 0px;
   top: 197px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .fa-solid.fa-heart:hover {
