@@ -40,4 +40,50 @@
         grid-gap: 20px;
 
     }
+
+    .fonctionnement {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 200px;
+    }
+
+    .fonctionnement__title {
+        padding-top: 25px;
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+
+    .cards {
+        margin: 20px;
+        margin-bottom: 0;
+
+    }
+
+
+    .restorants_presentation {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 20px;
+
+    }
+
+    .restorant_complete_menu {
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    .plat_list {
+        max-width: 280px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .plat {
+        min-width: 250px;
+        max-width: 250px;
+
+    }
 }
