@@ -321,6 +321,9 @@ input {
 .plat {
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .plat_description p {
@@ -346,6 +349,9 @@ input {
 
 .plat_name {
   font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .plat_composition {
@@ -724,6 +730,10 @@ footer .height {
 
 .btn:hover {
   box-shadow: inset 0px 0px 10px 10px #ff79da;
+}
+
+.margin_top {
+  margin-top: 70px;
 }
 
 @keyframes zoom {

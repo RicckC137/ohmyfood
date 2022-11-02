@@ -132,6 +132,9 @@
 .plat {
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .plat_description p {
@@ -157,7 +160,9 @@
 
 .plat_name {
     font-weight: bold;
-
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .plat_composition {
