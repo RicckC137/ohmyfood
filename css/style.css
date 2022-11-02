@@ -130,7 +130,6 @@ body {
 body {
   padding: 0px;
   margin: 0;
-  height: 2700px;
 }
 
 .fonctionnement__title {
@@ -503,13 +502,14 @@ input {
 }
 
 .heart-size {
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .heart {
   position: relative;
   z-index: 1;
   cursor: pointer;
+  margin-left: 10px;
 }
 
 .heart-color {
@@ -720,6 +720,10 @@ footer .height {
   border-radius: 30px;
   background-color: #ff79da;
   background: linear-gradient(#f074da, #a36bd8);
+}
+
+.btn:hover {
+  box-shadow: inset 0px 0px 10px 10px #ff79da;
 }
 
 @keyframes zoom {

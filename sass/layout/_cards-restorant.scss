@@ -352,13 +352,14 @@
 
 
 .heart-size {
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .heart {
     position: relative;
     z-index: 1;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .heart-color {
