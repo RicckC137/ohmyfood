@@ -1,16 +1,17 @@
 .main__form {
     @include flex_justify;
-    background-color: #eaeaea;
+    background-color: $light_grey;
 
 }
 
 input {
-    border-style: none;
-    background-color: $background-form;
+    border: none;
+    outline: none;
+    background-color: $light_grey;
 }
 
 ::placeholder {
-    color: black;
+    color: $black;
     font-weight: bold;
 
 }

@@ -12,17 +12,13 @@
     width: 50%;
     font-size: small;
     border-style: none;
-    border-color: #ff79da;
+    border-color: $pink;
     color: white;
     border-radius: 30px;
-    background-color: #ff79da;
-    background: linear-gradient(#f074da, #a36bd8);
+    background-color: $pink;
+    background: linear-gradient($pink, $purple);
 }
 
 .btn:hover {
-    box-shadow: inset 0px 0px 10px 10px #ff79da;
-}
-
-.margin_top {
-    margin-top: 70px;
+    box-shadow: inset 0px 0px 10px 10px $pink;
 }

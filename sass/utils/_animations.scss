@@ -19,7 +19,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: white;
+    background-color: $white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,8 +36,8 @@
 
 .loading__spiner {
     border: 20px solid white;
-    border-top: 20px solid #9356DC;
-    border-bottom: 20px solid #99E2D0;
+    border-top: 20px solid $purple;
+    border-bottom: 20px solid $green;
     border-radius: 50%;
     width: 100px;
     height: 100px;

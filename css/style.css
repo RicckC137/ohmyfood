@@ -88,11 +88,11 @@ body {
     min-width: 220px;
     max-width: 230px;
   }
+  .margin_top {
+    margin-top: 70px;
+  }
 }
 @media screen and (min-width: 992px) {
-  body {
-    height: 1400px;
-  }
   .fonctionnement {
     display: flex;
     flex-direction: row;
@@ -137,7 +137,7 @@ body {
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: #f6f6f6;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -174,12 +174,13 @@ a {
 }
 
 input {
-  border-style: none;
-  background-color: rgba(232, 227, 231, 0.9058823529);
+  border: none;
+  outline: none;
+  background-color: #eaeaea;
 }
 
 ::placeholder {
-  color: black;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -204,7 +205,7 @@ input {
   margin-right: 30px;
   padding: 5px 10px;
   border-radius: 50%;
-  color: white;
+  color: #FFFFFF;
   background-color: #9356DC;
 }
 .cards .cards_logo {
@@ -218,7 +219,7 @@ input {
 .restorants a {
   border-radius: 10px;
   text-decoration: none;
-  color: black;
+  color: #000000;
   margin-bottom: 30px;
 }
 .restorants .restorants__description {
@@ -245,7 +246,6 @@ input {
   background-color: #99E2D0;
   font-size: medium;
   font-weight: bold;
-  color: #0a5d48;
   position: absolute;
   justify-content: flex-end;
   width: fit-content;
@@ -330,7 +330,7 @@ input {
   display: flex;
   align-items: center;
   margin: 5px;
-  background-color: white;
+  background-color: #FFFFFF;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -377,7 +377,7 @@ input {
 .plat {
   top: 150px;
   left: 60px;
-  background-color: white;
+  background-color: #FFFFFF;
   display: flex;
   border-radius: 10PX;
   border-bottom-width: 5px;
@@ -402,7 +402,7 @@ input {
   display: flex;
   height: 60px;
   align-items: center;
-  color: white;
+  color: #99E2D0;
   transition: rotate(2turn);
   visibility: hidden;
 }
@@ -472,7 +472,7 @@ input {
   top: 115px;
   left: 60px;
   color: #99E2D0;
-  position: STATIC;
+  position: static;
   align-items: revert;
   margin-top: 0px;
   top: 0px;
@@ -493,7 +493,7 @@ input {
   display: flex;
   align-items: center;
   margin: 5px;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .plat_description {
@@ -540,14 +540,14 @@ input {
   background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 0px white;
+  -webkit-text-stroke: 0px #FFFFFF;
 }
 
 a {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .screen {
@@ -585,7 +585,7 @@ a {
 .restorant__name {
   background-color: #f6f6f6;
   left: 0px;
-  color: black;
+  color: #000000;
   border-radius: 40px;
   font-family: "Shrikhand", cursive;
   display: flex;
@@ -721,19 +721,15 @@ footer .height {
   width: 50%;
   font-size: small;
   border-style: none;
-  border-color: #ff79da;
+  border-color: #FF79DA;
   color: white;
   border-radius: 30px;
-  background-color: #ff79da;
-  background: linear-gradient(#f074da, #a36bd8);
+  background-color: #FF79DA;
+  background: linear-gradient(#FF79DA, #9356DC);
 }
 
 .btn:hover {
-  box-shadow: inset 0px 0px 10px 10px #ff79da;
-}
-
-.margin_top {
-  margin-top: 70px;
+  box-shadow: inset 0px 0px 10px 10px #FF79DA;
 }
 
 @keyframes zoom {
@@ -752,7 +748,7 @@ footer .height {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: white;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
