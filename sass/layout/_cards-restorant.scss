@@ -67,6 +67,10 @@
         flex-direction: column;
     }
 
+    .restorant_complete_menu {
+        background-color: $light_grey;
+    }
+
     .restorants__description--name {
         margin-left: 10px;
         margin-bottom: 5px;
@@ -176,14 +180,12 @@
     margin-right: 15px;
     margin-bottom: 0;
     font-weight: bold;
-
 }
 
 .plat_list {
     background-color: $grey;
     justify-content: space-around;
     font-size: small;
-    min-height: 270px;
 }
 
 .list_dessert {

@@ -266,6 +266,9 @@ input {
   display: flex;
   flex-direction: column;
 }
+.restorants .restorant_complete_menu {
+  background-color: #eaeaea;
+}
 .restorants .restorants__description--name {
   margin-left: 10px;
   margin-bottom: 5px;
@@ -368,7 +371,6 @@ input {
   background-color: #f6f6f6;
   justify-content: space-around;
   font-size: small;
-  min-height: 270px;
 }
 
 .list_dessert {
