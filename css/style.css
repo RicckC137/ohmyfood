@@ -88,9 +88,6 @@ body {
     min-width: 220px;
     max-width: 230px;
   }
-  .margin_top {
-    margin-top: 70px;
-  }
 }
 @media screen and (min-width: 992px) {
   .fonctionnement {
@@ -371,6 +368,9 @@ input {
   background-color: #f6f6f6;
   justify-content: space-around;
   font-size: small;
+}
+
+.list_dessert {
   height: 270px;
 }
 
