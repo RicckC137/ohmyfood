@@ -180,6 +180,7 @@
     margin-right: 15px;
     margin-bottom: 0;
     font-weight: bold;
+
 }
 
 .plat_list {
@@ -252,7 +253,7 @@
 
     .fa-solid.fa-circle-check {
         transform: rotate(-360deg);
-        transition: transform 600ms ease-in-out;
+        transition: transform 1s ease-in-out;
 
     }
 }
