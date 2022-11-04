@@ -402,8 +402,7 @@ input {
   display: flex;
   height: 60px;
   align-items: center;
-  color: #99E2D0;
-  transition: rotate(2turn);
+  color: #FFFFFF;
   visibility: hidden;
 }
 
