@@ -1,8 +1,13 @@
 .fonctionnement {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 0px 20px;
-    height: 400px;
+    font-size: small;
+}
+
+.fonctionnement_ajustement {
+    padding: 0 30px;
 }
 
 .cards {
